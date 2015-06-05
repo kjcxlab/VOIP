@@ -1,0 +1,71 @@
+﻿生成启动时间为 2015/5/28 19:10:55。
+     1>项目“C:\Qt\projects\VS2013\QSIP\QSIP\QSIP.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing qsip.h...
+         Uic'ing qsip.ui...
+         Moc'ing SipThread.h...
+         Rcc'ing qsip.qrc...
+     1>RCC : warning : No resources in 'C:\Qt\projects\VS2013\QSIP\QSIP\qsip.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qsip.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qsip.cpp, GeneratedFiles\Release\moc_qsip.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_SipThread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_SipThread.cpp, GeneratedFiles\Release\moc_SipThread.cpp.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.4.1\5.4\msvc2013\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.4.1\5.4\msvc2013\include\QtCore /ID:\Qt\Qt5.4.1\5.4\msvc2013\include\QtGui /ID:\Qt\Qt5.4.1\5.4\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_qsip.cpp GeneratedFiles\Debug\moc_SipThread.cpp main.cpp qsip.cpp SipThread.cpp
+         moc_qsip.cpp
+         moc_SipThread.cpp
+         main.cpp
+         qsip.cpp
+         SipThread.cpp
+         正在生成代码...
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.4.1\5.4\msvc2013\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.4.1\5.4\msvc2013\include\QtCore /ID:\Qt\Qt5.4.1\5.4\msvc2013\include\QtGui /ID:\Qt\Qt5.4.1\5.4\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_qsip.cpp
+         qrc_qsip.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Qt\projects\VS2013\QSIP\Win32\Debug\\QSIP.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.4.1\5.4\msvc2013\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib osipparser2.lib osip2.lib exosip2.lib WS2_32.Lib Dnsapi.lib iphlpapi.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Qt\projects\VS2013\QSIP\Win32\Debug\QSIP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Qt\projects\VS2013\QSIP\Win32\Debug\QSIP.lib" /MACHINE:X86 /SAFESEH Debug\moc_qsip.obj
+         Debug\moc_SipThread.obj
+         Debug\qrc_qsip.obj
+         Debug\main.obj
+         Debug\qsip.obj
+         Debug\SipThread.obj
+     1>osipparser2.lib(osip_accept.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_accept.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_accept_encoding.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_accept_encoding.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_accept_language.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_accept_language.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_alert_info.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_alert_info.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_allow.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_allow.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_authentication_info.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_authentication_info.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_authorization.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_authorization.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_body.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_body.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_call_id.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_call_id.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_call_info.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_call_info.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_contact.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_contact.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_content_disposition.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_content_disposition.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_content_encoding.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_content_encoding.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_content_length.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_content_length.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_content_type.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_content_type.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_cseq.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_cseq.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_error_info.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_error_info.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_from.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_from.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_header.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_header.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_list.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_list.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_md5c.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_md5c.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_message.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_message.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_message_parse.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_message_parse.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_message_to_str.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_message_to_str.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_mime_version.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_mime_version.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_parser_cfg.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_parser_cfg.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_port.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_port.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_proxy_authenticate.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_proxy_authenticate.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_proxy_authentication_info.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_proxy_authentication_info.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_proxy_authorization.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_proxy_authorization.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_record_route.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_record_route.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_route.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_route.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_to.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_to.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_uri.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_uri.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_via.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_via.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(osip_www_authenticate.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(osip_www_authenticate.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>osipparser2.lib(sdp_message.obj) : warning LNK4099: 未找到 PDB“osipparser2.pdb”(使用“osipparser2.lib(sdp_message.obj)”或在“C:\Qt\projects\VS2013\QSIP\Win32\Debug\osipparser2.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         QSIP.vcxproj -> C:\Qt\projects\VS2013\QSIP\Win32\Debug\QSIP.exe
+     1>已完成生成项目“C:\Qt\projects\VS2013\QSIP\QSIP\QSIP.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.03
