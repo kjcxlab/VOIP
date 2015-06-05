@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>label.png</file>
+    </qresource>
+</RCC>
