@@ -1,0 +1,116 @@
+﻿生成启动时间为 2015/5/27 14:40:32。
+     1>项目“C:\Qt\projects\VS2013\QSIP\QSIP\QSIP.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing qsip.h...
+         Uic'ing qsip.ui...
+         Rcc'ing qsip.qrc...
+     1>RCC : warning : No resources in 'C:\Qt\projects\VS2013\QSIP\QSIP\qsip.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qsip.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qsip.cpp, GeneratedFiles\Release\moc_qsip.cpp.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include\QtCore /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include\QtGui /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_qsip.cpp
+         qrc_qsip.cpp
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include\QtCore /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include\QtGui /ID:\Qt\Qt5.4.0\5.4\msvc2013_64\include\QtWidgets /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_qsip.cpp main.cpp qsip.cpp
+         moc_qsip.cpp
+         main.cpp
+         qsip.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Qt\projects\VS2013\QSIP\x64\Release\\QSIP.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.4.0\5.4\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib osipparser2.lib exosip2.lib osip2.lib Dnsapi.lib Iphlpapi.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Qt\projects\VS2013\QSIP\x64\Release\QSIP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Qt\projects\VS2013\QSIP\x64\Release\QSIP.lib" /MACHINE:X64 x64\Release\qrc_qsip.obj
+         x64\Release\moc_qsip.obj
+         x64\Release\main.obj
+         x64\Release\qsip.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 add_gettimeofday，该符号在函数 _eXosip_keep_alive 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_gettimeofday，该符号在函数 _eXosip_keep_alive 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_thread_create，该符号在函数 eXosip_listen_addr 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_thread_join，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_thread_exit，该符号在函数 _eXosip_thread 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_mutex_init，该符号在函数 eXosip_init 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_mutex_destroy，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_fifo_init，该符号在函数 eXosip_init 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_fifo_free，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_fifo_tryget，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(jevents.obj) : error LNK2001: 无法解析的外部符号 osip_fifo_tryget
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_free，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_free
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_init，该符号在函数 eXosip_init 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_release，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_set_application_context，该符号在函数 eXosip_init 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_ict_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_ist_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_ist_execute
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_nict_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_nist_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_nist_execute
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_timers_gettimeout，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_timers_ict_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_timers_ist_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_timers_nict_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_timers_nist_execute，该符号在函数 eXosip_execute 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_cond_init，该符号在函数 eXosip_init 中被引用
+     1>exosip2.lib(eXconf.obj) : error LNK2019: 无法解析的外部符号 osip_cond_destroy，该符号在函数 eXosip_quit 中被引用
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_mutex_lock，该符号在函数 eXosip_lock 中被引用
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_mutex_unlock，该符号在函数 eXosip_unlock 中被引用
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_init，该符号在函数 _eXosip_transaction_init 中被引用
+     1>exosip2.lib(eXinsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_add_event
+     1>exosip2.lib(eXsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_add_event
+     1>exosip2.lib(jresponse.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_add_event
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_add_event，该符号在函数 _eXosip_retry_with_auth 中被引用
+     1>exosip2.lib(eXregister_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_add_event
+     1>exosip2.lib(eXcall_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_add_event
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_add_event
+     1>exosip2.lib(eXinsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_set_your_instance
+     1>exosip2.lib(eXsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_set_your_instance
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_set_your_instance，该符号在函数 _eXosip_retry_with_auth 中被引用
+     1>exosip2.lib(eXcall_api.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_set_your_instance
+     1>exosip2.lib(jcallback.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_set_your_instance
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_set_your_instance
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_get_your_instance，该符号在函数 _eXosip_retry_with_auth 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_get_your_instance
+     1>exosip2.lib(jcall.obj) : error LNK2001: 无法解析的外部符号 osip_transaction_get_your_instance
+     1>exosip2.lib(eXinsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_new_outgoing_sipmessage
+     1>exosip2.lib(eXsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_new_outgoing_sipmessage
+     1>exosip2.lib(jresponse.obj) : error LNK2001: 无法解析的外部符号 osip_new_outgoing_sipmessage
+     1>exosip2.lib(eXosip.obj) : error LNK2019: 无法解析的外部符号 osip_new_outgoing_sipmessage，该符号在函数 _eXosip_retry_with_auth 中被引用
+     1>exosip2.lib(eXregister_api.obj) : error LNK2001: 无法解析的外部符号 osip_new_outgoing_sipmessage
+     1>exosip2.lib(eXcall_api.obj) : error LNK2001: 无法解析的外部符号 osip_new_outgoing_sipmessage
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_new_outgoing_sipmessage
+     1>exosip2.lib(eXcall_api.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_free，该符号在函数 eXosip_call_terminate 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_free
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_free
+     1>exosip2.lib(jdialog.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_free
+     1>exosip2.lib(eXcall_api.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_set_state，该符号在函数 eXosip_call_send_answer 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_set_state
+     1>exosip2.lib(eXinsubscription_api.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_set_state
+     1>exosip2.lib(jresponse.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_set_state
+     1>exosip2.lib(jevents.obj) : error LNK2019: 无法解析的外部符号 osip_fifo_add，该符号在函数 eXosip_event_add 中被引用
+     1>exosip2.lib(jevents.obj) : error LNK2019: 无法解析的外部符号 osip_fifo_get，该符号在函数 eXosip_event_get 中被引用
+     1>exosip2.lib(jevents.obj) : error LNK2019: 无法解析的外部符号 osip_cond_signal，该符号在函数 eXosip_event_add 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_set_message_callback，该符号在函数 eXosip_set_callbacks 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_set_kill_transaction_callback，该符号在函数 eXosip_set_callbacks 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_set_transport_error_callback，该符号在函数 eXosip_set_callbacks 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_remove_transaction，该符号在函数 cb_xixt_kill_transaction 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_remove_transaction
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_set_cb_send_message，该符号在函数 eXosip_set_callbacks 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_init_as_uac，该符号在函数 cb_rcv2xx_4invite 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_init_as_uac
+     1>exosip2.lib(jdialog.obj) : error LNK2001: 无法解析的外部符号 osip_dialog_init_as_uac
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_update_tag_as_uac，该符号在函数 cb_rcv1xx 中被引用
+     1>exosip2.lib(jcallback.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_update_route_set_as_uac，该符号在函数 cb_rcv1xx 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_set_in_socket，该符号在函数 eXosip_process_newrequest 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_transaction_set_out_socket，该符号在函数 eXosip_process_newrequest 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_find_transaction_and_add_event，该符号在函数 _eXosip_handle_incoming_message 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_parse，该符号在函数 _eXosip_handle_incoming_message 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_event_free，该符号在函数 _eXosip_handle_incoming_message 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_update_route_set_as_uas，该符号在函数 eXosip_process_newrequest 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_update_osip_cseq_as_uas，该符号在函数 eXosip_process_newrequest 中被引用
+     1>exosip2.lib(udp.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_match_as_uas，该符号在函数 eXosip_process_newrequest 中被引用
+     1>exosip2.lib(jdialog.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_init_as_uac_with_remote_request，该符号在函数 eXosip_dialog_init_as_uac 中被引用
+     1>exosip2.lib(jdialog.obj) : error LNK2019: 无法解析的外部符号 osip_dialog_init_as_uas，该符号在函数 eXosip_dialog_init_as_uas 中被引用
+     1>C:\Qt\projects\VS2013\QSIP\x64\Release\\QSIP.exe : fatal error LNK1120: 55 个无法解析的外部命令
+     1>已完成生成项目“C:\Qt\projects\VS2013\QSIP\QSIP\QSIP.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.15

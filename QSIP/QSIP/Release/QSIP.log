@@ -1,0 +1,26 @@
+﻿生成启动时间为 2015/6/2 16:58:32。
+     1>项目“C:\Qt\projects\VS2013\QSIP\QSIP\QSIP.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qsip.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qsip.cpp, GeneratedFiles\Release\moc_qsip.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_SipThread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_SipThread.cpp, GeneratedFiles\Release\moc_SipThread.cpp.
+     1>Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Qt\projects\VS2013\QSIP\Win32\Release\\QSIP.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.4.1\5.4\msvc2013\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib osipparser2.lib osip2.lib exosip2.lib WS2_32.Lib Dnsapi.lib iphlpapi.lib winmm.lib ms2.lib ortp.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD /NODEFAULTLIB:MSVCRTD /NODEFAULTLIB:libc.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Qt\projects\VS2013\QSIP\Win32\Release\QSIP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Qt\projects\VS2013\QSIP\Win32\Release\QSIP.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\qrc_qsip.obj
+         Release\moc_qsip.obj
+         Release\moc_SipThread.obj
+         Release\main.obj
+         Release\qsip.obj
+         Release\SipThread.obj
+     1>ms2.lib(audiostream.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+            正在创建库 C:\Qt\projects\VS2013\QSIP\Win32\Release\QSIP.lib 和对象 C:\Qt\projects\VS2013\QSIP\Win32\Release\QSIP.exp
+     1>SipThread.obj : warning LNK4217: 本地定义的符号 _av_profile 在函数 "public: bool __thiscall SipThread::build_media(int,char const *,int,int,char const *,int,bool,int)" (?build_media@SipThread@@QAE_NHPBDHH0H_NH@Z) 中导入
+     1>ortp.lib(rtpsession.obj) : error LNK2019: 无法解析的外部符号 ___HrLoadAllImportsForDll@4，该符号在函数 _rtp_session_uninit 中被引用
+     1>ortp.lib(rtpsession_inet.obj) : error LNK2001: 无法解析的外部符号 ___HrLoadAllImportsForDll@4
+     1>ortp.lib(rtpsession.obj) : error LNK2019: 无法解析的外部符号 _QOSCloseHandle@4，该符号在函数 _rtp_session_uninit 中被引用
+     1>ortp.lib(rtpsession.obj) : error LNK2019: 无法解析的外部符号 _QOSRemoveSocketFromFlow@16，该符号在函数 _rtp_session_uninit 中被引用
+     1>ortp.lib(rtpsession_inet.obj) : error LNK2019: 无法解析的外部符号 _QOSCreateHandle@8，该符号在函数 _rtp_session_set_dscp 中被引用
+     1>ortp.lib(rtpsession_inet.obj) : error LNK2019: 无法解析的外部符号 _QOSAddSocketToFlow@24，该符号在函数 _rtp_session_set_dscp 中被引用
+     1>C:\Qt\projects\VS2013\QSIP\Win32\Release\\QSIP.exe : fatal error LNK1120: 5 个无法解析的外部命令
+     1>已完成生成项目“C:\Qt\projects\VS2013\QSIP\QSIP\QSIP.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.69
